@@ -7,4 +7,4 @@ rvm:
   - 2.3.7
 
 script:
-  - bundle exec danger
+  - bundle exec danger --remove-previous-comments
