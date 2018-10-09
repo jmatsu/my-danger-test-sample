@@ -1,3 +1,9 @@
+PATH
+  remote: gems
+  specs:
+    danger-checkstyle_reports (0.0.1.pre.rc02)
+      danger-plugin-api (~> 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -24,8 +30,6 @@ GEM
       no_proxy_fix
       octokit (~> 4.7)
       terminal-table (~> 1)
-    danger-checkstyle_reports (0.0.1.pre.rc01)
-      danger-plugin-api (~> 1.0)
     danger-plugin-api (1.0.0)
       danger (> 2.0)
     faraday (0.15.3)
@@ -56,7 +60,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  danger-checkstyle_reports (= 0.0.1.pre.rc01)
+  danger-checkstyle_reports!
   pry
 
 BUNDLED WITH
