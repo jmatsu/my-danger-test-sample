@@ -1,7 +1,7 @@
 PATH
-  remote: ../danger-checkstyle_reports
+  remote: gems
   specs:
-    danger-checkstyle_reports (0.0.1)
+    danger-checkstyle_reports (0.0.1.pre.rc02)
       danger-plugin-api (~> 1.0)
 
 GEM

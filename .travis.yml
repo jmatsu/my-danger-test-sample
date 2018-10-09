@@ -1,0 +1,10 @@
+language: ruby
+cache:
+  directories:
+    - vendor/bundle
+
+rvm:
+  - 2.3.7
+
+script:
+  - bundle exec danger --remove-previous-comments

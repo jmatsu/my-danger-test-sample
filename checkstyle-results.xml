@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.19">
+<file name="/Users/jmatsu/Workspace/github.com/jmatsu/my-danger-test-sample/src/main/java/a/Library.java">
+<error line="8" column="17" severity="error" message="Name &apos;snake_case_method&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="/Users/jmatsu/Workspace/github.com/jmatsu/my-danger-test-sample/src/main/java/a/Utility.java">
+<error line="3" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+</file>
+<file name="/Users/jmatsu/Workspace/github.com/jmatsu/my-danger-test-sample/src/test/java/LibraryTest.java">
+<error line="5" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - org.junit.Assert.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+</checkstyle>

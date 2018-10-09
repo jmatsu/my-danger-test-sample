@@ -20,7 +20,7 @@ task checkstyle(type: Checkstyle, group: "Custom verification") {
     exclude 'src/test/**/*.java'
     reports {
         xml {
-            destination "${buildDir}/checkstyle/checkstyle.xml"
+            destination "${rootDir}/checkstyle-results.xml"
         }
     }
     classpath = files()
