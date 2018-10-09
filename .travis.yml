@@ -2,6 +2,9 @@ language: ruby
 cache:
   directories:
     - vendor/bundle
+env:
+  global:
+    - CI=true
 
 rvm:
   - 2.3.7
